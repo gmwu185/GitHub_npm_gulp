@@ -1,0 +1,21 @@
+{
+  "name": "npm_gulp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jimmy <gmwuwork@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1"
+  }
+}
