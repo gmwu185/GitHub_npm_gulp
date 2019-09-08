@@ -112,6 +112,10 @@ gulp.task('watch', function () {
   gulp.watch('./source/*.jade', ['jade']);
 });
 
+gulp.task('deploy', function() {
+  return gulp.src('./output/**/*')
+    .pipe($.ghPages());
+});
 
 gulp.task('build', gulpSequence('clean', 'jade', 'sass', 'bable', 'vendorJs'));
 
